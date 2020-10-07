@@ -55,6 +55,34 @@ transform: translate(10%, 10%)
     font-size: 20px;
     filter: alpha(opacity=60);
  }
- nav a:active {
+ .active {
      background-color: white;
  }
+ table tr,td,th { border:5px solid white;
+    background-color: #D9E5D6;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    
+       }
+       
+       tr,td,th:hover{
+           opacity: 0.9;
+       }
+       th {
+           background-color: rgb(141, 196, 32);
+       }
+       table {
+           position: absolute;
+           left: 300px;
+           border-radius: 20px rgb(141, 196, 32);
+           
+       }
+     td:first-child {
+         text-align: left;
+     }
+     tr,td, {
+         color:grey;
+     }
+    
